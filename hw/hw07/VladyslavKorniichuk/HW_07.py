@@ -10,7 +10,7 @@
 #         return num2
 #
 # print(bigger(10, 5))
-
+import math
 # task 2
 # def rectangle(num1, num2):
 #     formula = num1 * num2
@@ -69,4 +69,9 @@
 
 
 
+
+def reverse_list(l):
+    return l[::-1]
+
+print(reverse_list([1,2,3,4,5]))
 
